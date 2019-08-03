@@ -8,5 +8,10 @@ namespace Exercise3._1
 {
     class Class1
     {
+        public void readfile()
+        {
+
+
+        }
     }
 }
