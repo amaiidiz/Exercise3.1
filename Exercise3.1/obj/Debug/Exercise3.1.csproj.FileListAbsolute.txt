@@ -1,0 +1,8 @@
+C:\Users\eneida.sanchez\Desktop\Git\Exercise3.1\Exercise3.1\bin\Debug\Exercise3.1.exe.config
+C:\Users\eneida.sanchez\Desktop\Git\Exercise3.1\Exercise3.1\bin\Debug\Exercise3.1.exe
+C:\Users\eneida.sanchez\Desktop\Git\Exercise3.1\Exercise3.1\bin\Debug\Exercise3.1.pdb
+C:\Users\eneida.sanchez\Desktop\Git\Exercise3.1\Exercise3.1\obj\Debug\Exercise3.1.csprojAssemblyReference.cache
+C:\Users\eneida.sanchez\Desktop\Git\Exercise3.1\Exercise3.1\obj\Debug\Exercise3.1.csproj.CoreCompileInputs.cache
+C:\Users\eneida.sanchez\Desktop\Git\Exercise3.1\Exercise3.1\obj\Debug\Exercise3.1.exe
+C:\Users\eneida.sanchez\Desktop\Git\Exercise3.1\Exercise3.1\obj\Debug\Exercise3.1.pdb
+C:\Users\eneida.sanchez\Desktop\Git\Exercise3.1\Exercise3.1\bin\Debug\EneidaFiles\Breakfast.xml
