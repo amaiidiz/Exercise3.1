@@ -20,6 +20,7 @@ namespace Exercise3._1
             Console.WriteLine("Which breakfast you want to know the price of?");
             breakfast = Console.ReadLine();
             ReadFile.Readfile(filePath, breakfast);
+            Console.ReadLine();
         }
     }
 }

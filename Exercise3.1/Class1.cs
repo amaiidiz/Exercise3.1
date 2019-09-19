@@ -10,21 +10,28 @@ namespace Exercise3._1
 {
     class Class1
     {
-        public void Readfile(string filePath, string menu)
+        public void Readfile(string filePath, string food)
         {
+            bool foundItem = false;
             using (XmlReader reader = XmlReader.Create(@filePath))
-                while (reader.Read())
+                while (reader.Read() && !foundItem)
                 {
                         if (reader.Name == "name") 
                         {
-                            if (reader.ReadString().Equals(menu))
+                            if (reader.ReadString().Equals(food))
                             {
+                                foundItem = true;
                                 reader.ReadToNextSibling("price");
-                                Console.WriteLine("The price of the food is: " + reader.ReadString());
-                                Console.ReadLine();
+                                Console.WriteLine("The price is: " + reader.ReadString());
+                                reader.ReadToNextSibling("description");
+                                Console.WriteLine(reader.ReadString());
+                                reader.ReadToNextSibling("calories");
+                                Console.WriteLine("This food contains the following calories: " + reader.ReadString());
                             }
                         }
                  }
+            if (!foundItem)
+                Console.WriteLine("We couldn't find item: " + food);
         }
     }
 }
